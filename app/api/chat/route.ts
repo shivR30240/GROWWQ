@@ -1,7 +1,8 @@
 import { NextRequest, NextResponse } from 'next/server'
 
 const GEMINI_URL =
-  'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent'
+  'https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent'
+
 
 const SYSTEM_PROMPT = `You are GrowIQ Assistant, a friendly and expert marketing AI embedded in the GrowIQ AI Marketing Optimization platform. Help marketers understand and improve their marketing performance.
 
